@@ -1,5 +1,6 @@
-const happyBtn = querySelector("#happy-btn");
+const happyBtn = document.querySelector("#happy-btn");
 
 happyBtn.addEventListener("click", () => {
-  console.log("Button Clicked!");
+  const countEl = happyBtn.querySelector(".count");
+  console.log("Current count:", currCount);
 });
